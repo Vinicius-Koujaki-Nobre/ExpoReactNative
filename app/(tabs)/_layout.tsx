@@ -7,8 +7,8 @@ export default function TabLayout() {
 
   return (
     <Tabs>
-        <Tabs.Screen name='index' options={{headerShown: false, tabBarIcon: () => (<Text>❤</Text>)}}></Tabs.Screen>
-        <Tabs.Screen name='explore' options={{headerShown: false, tabBarIcon: () => (<Text>👩‍🎓</Text>)}}></Tabs.Screen>
+        <Tabs.Screen name='index' options={{headerShown: false, tabBarIcon: () => (<Text></Text>)}}></Tabs.Screen>
+        <Tabs.Screen name='outros' options={{headerShown: false, tabBarIcon: () => (<Text></Text>)}}></Tabs.Screen>
       </Tabs>
   );
 }
